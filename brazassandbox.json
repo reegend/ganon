@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "brazassandbox",
+  "private_key_id": "f3a94eb760ec1d9d2593873a5d1db677b551f412",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHPiwDRQP4Ues7\nx0Jz3UXBfA0lH2LqeL0ZETdXQ1O881/z/Vvx74I3gw4YTLRQEiAXsJiJUtslVdIa\nBhRY8zDf2FHMui+xhvz2CH4jcKkJG6JTwK9Aj8RPhBMmID9MhyfI8nBAG/UqAjuJ\nEqF3EBSDXp1MD/vg/tRPcK41c2FPCGk1EcVfmNJog/aa1k/QwS/w/oAWIsEOfzmN\n5yxu3ifQexNzQkjVVCU0ZCBBaxQtlxCpUaHKbkrZVN6qlfcRN6PUfeuHDrvuvILf\nAs9LnS9EGuOUFgJNTzKTi+ZMYmplf976rf7qX/+F9JGn8mYaiEORZ7OXl3P1D9Oc\nr+yhPC/3AgMBAAECggEADRRsHUGASOKlLQUgEVfQXCsBoz3pPM1KVK/y+xvkuRMd\nFHkTJScnsZnn6KPNyTKMwCFhZ3p0qoHKINfkqWY6/3xFpR6ql4lDZ/9sux+Kk+99\ne5QQV+OtloQWzGTyODA95gzhs5kM7NdoAyVMS52sSxIrWgfz7XRX3xMy9zf+MQrq\nyQ1mp3QzAulgt9Cr8gYaUs4vWduJVQIk6qDwiV6porUSFbgDSy6j6OJimIzG5gPo\nxkjraIo+SCmveIRuRrQFmd3kugHIG1e4NYHhGtORiidlLqxFjGuyYznsxFBVod6u\nbNOscu87L402YFaNkOI57dQIT1S/LQnOVQ17F8GqSQKBgQD+Kke57RqcUMC0H3+K\nF5jfnUo7qm+bMm3evZipTrMnq0CTShbseM97vSunKzwPKS0cM0eK92Z9IlkQ5siN\nRQ4AaiA9hqlykqpS5LzuOtYPm+zfW3LwlXkvvdcxOvCLQS//OSFSWotFNfBiuXBH\nUzv3lcEm5rHpBrHIVb6ARqk0GwKBgQDIrmP0qpfFDRavPbXzeqMgVWtY8lI6CcwE\n030c3KkL7L0Foz447Qi7gOHUFv6Y8/uXEfRUV664DS9a1VyMlCcpKgOjBPJ1qW9L\nxYxkmoakBu58xPoCWFbsyKLqmzUGBkjBf51gvTsLlhEemF9gXTKLF5lpPti9Q2XM\nCMYi6dnZVQKBgAk56a6jH8Mq30PqnMubfa4oXIh78F823mwmf8Mtmy1GdyqhluFw\npT99p3cDB8QZH40Vg3RU9MB4HbmSVxdhuVdkgtUY7U++aTZnHUCcnCam51tYS3zW\nQDbuckBUPmUfsalXHpGJveJ+ScKbrqq4J8YeBovt9elal9uI2Uh4yC2fAoGBAIwq\nMapb1HFPOP7g7UrH51PYFYgkiAX9fcAJLyOPg4rOqR9c60K7XBQKarDF9sFB+AGG\nCs82BtSKcP7SczfE6q03qR6df/Nqik+0BODnhQ7fwIbo1W354Yy0fgW6rggtL3fm\n+DbvNGRdRkvGRSd7MKgxrXby7FMU1e7yWeFc0EmZAoGAeevD/XMU2+b+GnD7GuQk\nEo0cM/OQmpSpOMLHMO0D6JTDyBqVKEKESlLknLFpJhJcne2n5ObPhMif8j+R2tHk\nAeMwDL8BpeABpArpVzr+UjOMYH58xzjVP9y55x3IBXAlLA0wOYptouFrdJO0Z60/\no/pNb94sOWl3k8LrfsHbndE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-o7bhz@brazassandbox.iam.gserviceaccount.com",
+  "client_id": "114307193082142048019",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-o7bhz%40brazassandbox.iam.gserviceaccount.com"
+}

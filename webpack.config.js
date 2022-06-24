@@ -5,7 +5,8 @@ module.exports = {
     entry: {
         //flight_info: './src/flight_info.js',
         index:  './src/index.js',
-        table: './src/table.js'
+        table: './src/table.js',
+        query: './src/query.js'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

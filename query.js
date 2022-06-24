@@ -17,22 +17,29 @@ const firebaseConfig = {
   // Initialize Firebase
   initializeApp(firebaseConfig);
 
-// ./firestore-next/test.firestore.js
-//
-// To update the snippets in this file, edit the source and then run
-// 'npm run snippets'.
 
-// [START simple_queries_modular]
-// Create a reference to the cities collection
-//import { collection, query, where } from "firebase/firestore";
+
 
 const db = getFirestore();
 const citiesRef = collection(db, "flights");
 
-// Create a query against the collection.
-const q = query(collection(db, "flights"), where("outgoing", "==", "Chicago"));
-// [END simple_queries_modular]
-console.log("query")
+// const city = document.querySelector(".value");
+const city = "NYC"
+
+const cidy = document.querySelector(".select");
+
+cidy.addEventListener("submit",(event) =>{
+    event.preventDefault();
+    cidy.outgoing.value;
+    console.log(cidy.outgoing.value);
+     }
+)
+
+
+const q = query(collection(db, "flights"), where("outgoing", "==", city));
+
+
+
 
 const querySnapshot = getDocs(q)
 .then((snapshot)=>{
@@ -41,7 +48,56 @@ const querySnapshot = getDocs(q)
 
     })
 })
-//querySnapshot.forEach((doc) => {
-  // doc.data() is never undefined for query doc snapshots
-  //console.log(doc.id, " => ", doc.data());
-//});
+getDocs(q)
+    .then((snapshot)=>{
+        let flight = [];
+        let i = 0;
+            snapshot.docs.forEach((documents)=>{
+                flight.push({...documents.data(),id: documents.id});
+                let table = document.getElementById('flights');
+                let row = table.insertRow(-1);
+
+                let cell = row.insertCell(0);
+                let text = document.createTextNode(flight[i].outgoing);
+                cell.appendChild(text);
+
+                cell = row.insertCell(1);
+                text = document.createTextNode(flight[i].incoming);
+                cell.appendChild(text);
+                cell = row.insertCell(2);
+                text = document.createTextNode(flight[i].aircraft);
+                cell.appendChild(text);
+
+                cell = row.insertCell(3);
+                text = document.createTextNode(flight[i].duration);
+                cell.appendChild(text);
+
+                i++;
+            });
+            console.log(flight);
+    })
+    .catch(err =>{
+    console.error(err);
+    });
+// Create a query against the collection.
+
+// function returnflights(city){
+//     const q = query(collection(db, "flights"), where("outgoing", "==", city));
+//     // [END simple_queries_modular]
+//     console.log(q)
+//     return q    
+// }
+
+// returnflights("Chicago")
+// const city = document.querySelector(".select");
+// console.log(city)
+// city.addEventListener('submit', (event)=>{
+//     event.preventDefault();
+//     query(collection(db, "flights"), where("outgoing", "==", city))
+// })
+
+// const q = query(collection(db, "flights"), where("outgoing", "==", city));
+// // [END simple_queries_modular]
+// console.log(q)
+
+
